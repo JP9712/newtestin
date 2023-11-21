@@ -1,7 +1,7 @@
 const division = require("./division")
 
-test("Dividir 50 / 2 es igual a 25", () => {
-    expect(division(50, 2)).toBe(25);
+test("Dividir 100 / 4 es igual a 25", () => {
+    expect(division(100, 4)).toBe(25);
 });
 
 test('dividir 0 por cualquier otro número distinto a cero es igual a 0', () => {
